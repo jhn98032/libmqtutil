@@ -16,10 +16,13 @@ doxygen is needed for building:
 
 Run:
 
+.. code-block:: bash
+
     ./configure
 
 Followed by:
 
+.. code-block:: bash
     make
     make install
 
