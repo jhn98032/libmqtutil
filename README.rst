@@ -2,7 +2,23 @@
 libmqtutil
 ==========
 
-A C++ Qt utility library
+A C++ Qt utility library with BSD license.
+
+Build and install
+-----------------
+
+Run:
+
+    ./configure
+
+Followed by:
+
+    make
+    make install
+
+
+Usage instructions
+------------------
 
 To use add the following to the pro file:
 
