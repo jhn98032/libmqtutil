@@ -23,6 +23,7 @@ Run:
 Followed by:
 
 .. code-block:: bash
+
     make
     make install
 
