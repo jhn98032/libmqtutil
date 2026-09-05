@@ -7,6 +7,11 @@ A C++ Qt utility library with BSD license.
 Build and install
 -----------------
 
+doxygen is needed for building:
+
+    sudo apt install doxygen
+
+
 Run:
 
     ./configure
