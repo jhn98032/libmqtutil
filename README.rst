@@ -5,7 +5,7 @@ libmqtutil
 A C++ Qt utility library with BSD license.
 
 Build and install
------------------
+=================
 
 doxygen is needed for building:
 
@@ -29,9 +29,9 @@ Followed by:
 
 
 Usage instructions
-------------------
+==================
 
-To use add the following to the pro file:
+To use add the following to the .pro file in your application:
 
 .. code-block:: bash
 
@@ -40,8 +40,8 @@ To use add the following to the pro file:
 
 
 Author
-------
+======
 
-Written by Johan Henriksson (johan@dexar.se)
+Written by Johan Henriksson (johan[a]dexar.se)
 
 
