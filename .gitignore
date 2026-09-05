@@ -1,8 +1,19 @@
 *.o
+tests/test
+src/libmqtutil.a
+
 moc_*.cpp
 moc_*.h
 ui_*.h
 qrc_*
-__pycache__
 src/.qmake.stash
+src/Makefile
+tests/.qmake.stash
+tests/Makefile
+
+__pycache__
+dist
+makefile.local
+
+docs/doxydoc
 
