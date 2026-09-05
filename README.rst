@@ -8,6 +8,7 @@ Build and install
 -----------------
 
 doxygen is needed for building:
+
 .. code-block:: bash
 
     sudo apt install doxygen
