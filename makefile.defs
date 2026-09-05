@@ -1,0 +1,10 @@
+LIB_NAME=libmqtutil
+
+#CXXFLAGS+=-ansi
+# -fno-rtti -g -Wall
+
+
+# The destination directory
+PREFIX?=/usr/local
+
+
