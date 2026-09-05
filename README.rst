@@ -33,6 +33,8 @@ Usage instructions
 
 To use add the following to the pro file:
 
+.. code-block:: bash
+
   QMAKE_CXXFLAGS+=`libmqtutil-config --cflags`
   LIBS+=`libmqtutil-config --ldflags`
 
@@ -42,7 +44,4 @@ Author
 
 Written by Johan Henriksson (johan@dexar.se)
 
-Dependencies
--------------
-None
 
