@@ -24,8 +24,9 @@ clean:
 	echo cleaning
 	rm -Rf doxydoc
 	rm -Rf apidoc
+
 distclean:
-	make clean
+	@(MAKE) clean
 	rm -f *~
 	rm -Rf apidoc
 	chmod a-x $(CONF_FILE)

@@ -5,7 +5,7 @@ SUBDIRS = src tests
 
 
 
-all: tests/Makefile src/Makefile dist/bin/libmqtutil-config
+all: tests/Makefile src/Makefile mqt_unit_test dist/bin/libmqtutil-config
 	mkdir -p dist/lib dist/include
 	mkdir -p dist/bin
 	$(MAKE) -C src
@@ -13,6 +13,7 @@ all: tests/Makefile src/Makefile dist/bin/libmqtutil-config
 	$(MAKE) -C docs
 	cp -f src/lib*.a   dist/lib/
 	cp -R src/mqtutil   dist/include/
+	cp mqt_unit_test	dist/bin/
 
 dist/bin/libmqtutil-config: libmqtutil-config
 	mkdir -p dist/bin
@@ -42,7 +43,7 @@ install: all
 	cp -Rfav dist/lib/* $(PREFIX)/lib
 	mkdir -p $(PREFIX)/docs/libmqtutil/
 	cp -Rfa  dist/docs/libmqtutil/* $(PREFIX)/docs/libmqtutil/
-	cp -afv dist/bin/libmqtutil-config $(PREFIX)/bin
+	cp -afv dist/bin/* $(PREFIX)/bin
 
 
 clean: src/Makefile tests/Makefile
