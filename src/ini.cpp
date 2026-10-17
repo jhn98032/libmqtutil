@@ -94,7 +94,7 @@ void IniGroup::dump() const
     {
         IniEntry *entry = m_entries[i];
         QString valueStr = entry->m_value.toString();
-        printf("_%s_%s_\n", qPrintable(entry->m_name), qPrintable(valueStr));
+        printf("%s='%s'\n", qPrintable(entry->m_name), qPrintable(valueStr));
     }
 
 }
