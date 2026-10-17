@@ -19,7 +19,9 @@ namespace mqtutil
 
 /**
   * @brief Tries to detect the distro the system is running on.
-  */
+*
+* Defined in '<mqtutil/detectdistro.h>'
+*/
 void
 detectDistro(DistroType * type, QString * distroDesc)
 {

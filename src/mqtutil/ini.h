@@ -73,6 +73,12 @@ class IniGroup
     friend Ini;
 };
 
+
+/**
+ * A simple INI file.
+*
+* Include '<mqtutil/ini.h>' to use.
+*/
 class Ini
 {
 public:

@@ -26,7 +26,6 @@ namespace mqtutil
 
 /**
  * @brief Checks if a string describe a integer.
- * @ingroup MAPI
  */
 bool isInteger(QString str)
 {
