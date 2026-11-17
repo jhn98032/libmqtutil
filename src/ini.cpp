@@ -646,7 +646,7 @@ int Ini::decodeValueString(IniEntry *entry, QString specialKind, QString dataArr
                 case SECOND_HEX:
                 {
                     hexStr[1] = c.toLatin1();
-                    byteArray += hexStringToU8(hexStr);
+                    byteArray += mqtutil::hexStringToU8(hexStr);
                     state = IDLE;
                 };break;
             };
