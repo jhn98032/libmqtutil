@@ -22,10 +22,10 @@ dist/bin/libmqtutil-config: libmqtutil-config
 
 
 src/Makefile: version.pri
-	cd src && qmake
+	cd src && qmake6
 
 tests/Makefile:
-	cd tests && qmake
+	cd tests && qmake6
 
 makefile.local:
 	@echo "Please run configure"
@@ -58,7 +58,7 @@ distclean:
 	rm -f *~
 	chmod a+rx libmqtutil-config
 	rm -fR dist
-	rm -f src/.qmake.stash
+	rm -f src/.qmake6.stash
 	rm -f src/Makefile
 	rm -f tests/Makefile
 	rm -f tests/test
